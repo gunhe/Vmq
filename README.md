@@ -14,7 +14,7 @@ V免签 是基于SpringBoot 2.1.1 实现的一套免签支付程序，主要包�
 
 > 如果您不熟悉Java的配置，您可以使用PHP版本的服务端（ https://github.com/szvone/Vmqphp ）
 
-> 监控端的开源地址位于： https://github.com/szvone/VmqApk
+> 监控端的开源地址位于：[ https://github.com/szvone/VmqApk](https://github.com/gunhe/Vmq)
 
 > V免签开发交流群：992029073
 
