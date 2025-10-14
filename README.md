@@ -32,6 +32,15 @@ V免签为完全开源项目，开源项目意味着作者没有任何收入来�
 
 ## 安装
 
+```bash
+docker run -itd \
+--restart=always \
+-v $(pwd):/app/Vmq \
+-p 8005:8005 \
+--name vmq \
+openjdk:8-jdk-alpine java -jar /app/Vmq/target/mq-0.0.1-SNAPSHOT.war --server.port=8005
+```
+
  + 下载已经编译好的war,位于GitHub的releases中
  + 确认本机已经拥有java的运行环境（JDK>=1.8）,如果没有，请您安装java的运行环境
  + 在war包的同级目录，在控制台输入启动命令 java -jar v.war
